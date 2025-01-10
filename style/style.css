@@ -10,7 +10,7 @@
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 10px;
     letter-spacing: 0%;
     text-align: center;
     border-radius: 8px;
@@ -94,3 +94,29 @@
         text-align: center;
         opacity: 0.6;
     }
+
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    background-color: rgba(82, 195, 3, 0.15);
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 21px 32px 21px 32px;
+}
